@@ -15,6 +15,8 @@ Plugin 'jpalardy/vim-slime'
 Plugin 'prabirshrestha/vim-lsp'
 " Plugin 'mattn/vim-lsp-settings'
 Plugin 'FooSoft/vim-argwrap'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -161,3 +163,9 @@ nnoremap ? q?i
 colorscheme desert
 
 nnoremap <silent> <Space>a :ArgWrap<CR>
+
+
+let g:UltiSnipsExpandTrigger="<tab>"
+" list all snippets for current filetype
+let g:UltiSnipsListSnippets="<c-l>"
+
