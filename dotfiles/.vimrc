@@ -13,7 +13,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'jpalardy/vim-slime'
 Plugin 'prabirshrestha/vim-lsp'
-Plugin 'mattn/vim-lsp-settings'
+" Plugin 'mattn/vim-lsp-settings'
 Plugin 'FooSoft/vim-argwrap'
 
 " The following are examples of different formats supported.
@@ -81,13 +81,13 @@ set whichwrap=b,s,h,l,<,>,[,]
 set nowrapscan
 
 set encoding=utf-8
-nnoremap ; :
-nnoremap : ;
-inoremap ; :
-inoremap : ;
-nnoremap ; :
-cnoremap ; :
-vnoremap ; :
+"nnoremap ; :
+"nnoremap : ;
+"inoremap ; :
+"inoremap : ;
+"nnoremap ; :
+"cnoremap ; :
+"vnoremap ; :
 inoremap jj <ESC>
 " vnoremap jj <ESC>
 " tab control
@@ -109,7 +109,7 @@ nmap <Space>r <Plug>SlimeParagraphSend
 set tags=./tags;$HOME
 
 nnoremap <space>v <c-v>
-nnoremap ; q:i
+nnoremap : q:i
 nnoremap / q/i
 nnoremap ? q?i
 
